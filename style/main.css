@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-width: 600px;
+  }
+  h1 {
+    font-size: 100px;
+    font-weight: bold;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  .header-main >h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.83;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 1px;
+  }
+ h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.83;
+    letter-spacing: 0.05em;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .container {
+      padding: 20px 5% 20px 5%;
+  }
+  /* HEADER START  */
+
+header {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1; */
+    min-height: 800px;
+    background: url(/img/header.jpg) no-repeat center / cover;
+    /* background-position: center center; */
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+nav > ul > li {
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+.header-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 240px 0; 
+}
+
+.header-main h2 {
+
+}
+.header-main h1 {
+
+}
+.header-main h3 {
+
+}
+.header-main h4 {
+
+}
+
+/* HEADER END  */
+
+.main-top {
+    min-height: 435px;
+}
+.main-app {
+    min-height: 885px;
+}
+
+.main-review {
+    min-height: 465px;
+}
+
+.main-cuisines {
+    min-height: 795px;   
+}
+footer {
+    min-height: 95px;
+}
