@@ -179,7 +179,12 @@ nav>ul>li {
   background-size: cover; 
   width: 20%;
   height: 50%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 #cuisines-img-1 {
   background-image: url(/img/italian.png);
 }
