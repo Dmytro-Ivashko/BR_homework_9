@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  min-width: 600px;
+  min-width: 850px;
 }
 
 h1 {
@@ -24,7 +24,6 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: bold;
-  line-height: 0.83;
   line-height: 1.875;
   letter-spacing: 0.05em;
 }
@@ -37,7 +36,9 @@ h3 {
 
 h4 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 300;
+  line-height: 1.12;
+  letter-spacing: 0.05em;
 }
 
 h5 {
@@ -148,6 +149,32 @@ nav>ul>li {
 .main-cuisines {
   min-height: 795px;
 }
+.main-cuisines-top {
+  height: 164px;
+  border-top: 1px solid #d6d2d6;
+  color: black;
+  text-align: center;
+}
+.main-cuisines-top  > h3 {
+  padding-top: 100px;
+  line-height: 1.66;
+}
+.main-cuisines-img-block {
+  height: 450px;
+  background-color: gray;
+}
+
+.main-cuisines-statistic {
+  padding: 0 5% 0 5%;
+  color:black;
+}
+.main-cuisines-statistic ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0 40px 0;
+}
+
+
 /* MAIN END  */
 
 /* FOOTER START */
