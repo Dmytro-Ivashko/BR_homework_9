@@ -115,6 +115,8 @@ nav>ul>li {
 
 .main-top {
   min-height: 435px;
+  padding: 0 5% 0 5%;
+  color: black;
 }
 
 .main-app {
