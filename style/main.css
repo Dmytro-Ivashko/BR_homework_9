@@ -138,30 +138,40 @@ nav>ul>li {
 
 .main-app {
   min-height: 885px;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  /* background: url(../img/phone.png) no-repeat; */
+  background:#f7f7f7 url(../img/phone.png) no-repeat left bottom;
+  background-position:15% 85%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row-reverse;
+   justify-content: flex-start;
   flex-wrap: wrap;
   color: black;
   align-items: flex-end;
-  padding: 0 5% 0 5%;
+  padding: 0 10% 0 10%;
 }
 
 
 .main-app p {
 font-size: 16px;
-font-weight: 200;
-
-
-
+line-height: 1.125;
+letter-spacing: 0.05em;
+font-weight: 300;
+margin: 20px 0;
 }
-#iphone {
+.main-app img {
+  margin:0 20px;
+  }
+/* #iphone {
   width: 45%;
-}
+  background: url(../img/phone.png) no-repeat;
+  background-position: left;
+} */
 #iphone-text {
   width: 45%;
+  margin-bottom: 350px;
+  overflow: auto;
+
 }
 
 .main-review {
