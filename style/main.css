@@ -33,6 +33,7 @@ h2 {
   font-size: 36px;
   font-weight: bold;
   line-height: 0.83;
+  line-height: 1.875;
   letter-spacing: 0.05em;
 }
 
@@ -59,6 +60,12 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.125;
 }
 
 .container {
@@ -113,14 +120,28 @@ nav>ul>li {
 
 /* HEADER END  */
 
+/* MIN START */
 .main-top {
   min-height: 435px;
   padding: 0 5% 0 5%;
   color: black;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main-top-block {
+  text-align: center;
+  margin: 100px 25px 100px 25px;
+
+}
+.main-top-block > li {
+  padding: 10px;
 }
 
 .main-app {
   min-height: 885px;
+  background-color: gray;
 }
 
 .main-review {
@@ -130,6 +151,7 @@ nav>ul>li {
 .main-cuisines {
   min-height: 795px;
 }
+/* MAIN END  */
 
 footer {
   min-height: 95px;
