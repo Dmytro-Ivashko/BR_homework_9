@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  min-width: 850px;
+  min-width: 1200px;
 }
 
 h1 {
@@ -18,9 +18,6 @@ h1 {
   font-weight: bold;
   letter-spacing: 0.05em;
 }
-
-
-
 h2 {
   font-size: 36px;
   font-weight: bold;
@@ -91,7 +88,6 @@ nav>ul>li {
   align-items: center;
   margin: 240px 0 0 0;
 }
-
 .header-main>h2 {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
@@ -124,34 +120,28 @@ nav>ul>li {
   color: black;
   display: flex;
   justify-content: space-between;
-
 }
 
 .main-top-block {
   text-align: center;
   margin: 100px 25px 100px 25px;
-
 }
 .main-top-block > li {
   padding: 10px;
 }
 
 .main-app {
-  min-height: 885px;
-  /* background-color: #f7f7f7; */
-  /* background: url(../img/phone.png) no-repeat; */
+  min-height: 880px;
+  padding: 0 10% 0 10%;
+  color: black;
   background:#f7f7f7 url(../img/phone.png) no-repeat left bottom;
-  background-position:15% 85%;
+  background-position:15% 100%;
   display: flex;
   flex-direction: row-reverse;
    justify-content: flex-start;
   flex-wrap: wrap;
-  color: black;
   align-items: flex-end;
-  padding: 0 10% 0 10%;
 }
-
-
 .main-app p {
 font-size: 16px;
 line-height: 1.125;
@@ -162,16 +152,11 @@ margin: 20px 0;
 .main-app img {
   margin:0 20px;
   }
-/* #iphone {
-  width: 45%;
-  background: url(../img/phone.png) no-repeat;
-  background-position: left;
-} */
 #iphone-text {
+  height: 100%;
   width: 45%;
   margin-bottom: 350px;
   overflow: auto;
-
 }
 
 .main-review {
@@ -187,7 +172,7 @@ margin: 20px 0;
 .main-review  p {
   font-size: 30px;
   font-weight: 100;
-  text-emphasis: center;
+  text-align: center;
   margin: 30px 0 30px 0;
 }
 .main-review ul {
@@ -239,34 +224,34 @@ margin: 20px 0;
 }
 
 #cuisines-img-1 {
-  background-image: url(/img/italian.png);
+  background-image: url(../img/italian.png);
 }
 #cuisines-img-2 {
-  background-image: url(/img/indian.png);
+  background-image: url(../img/indian.png);
 }
 #cuisines-img-3 {
-  background-image: url(/img/french.png);
+  background-image: url(../img/french.png);
 }
 #cuisines-img-4 {
-  background-image: url(/img/stake.png);
+  background-image: url(../img/stake.png);
 }
 #cuisines-img-5 {
-  background-image: url(/img/sea.png);
+  background-image: url(../img/sea.png);
 }
 #cuisines-img-6 {
-  background-image: url(/img/sushi.png);
+  background-image: url(../img/sushi.png);
 }
 #cuisines-img-7 {
-  background-image: url(/img/mexican.png);
+  background-image: url(../img/mexican.png);
 }
 #cuisines-img-8 {
-  background-image: url(/img/chinese.png);
+  background-image: url(../img/chinese.png);
 }
 #cuisines-img-9 {
-  background-image: url(/img/pizza.png);
+  background-image: url(../img/pizza.png);
 }
 #cuisines-img-10 {
-  background-image: url(/img/american.png);
+  background-image: url(../img/american.png);
 }
 
 .main-cuisines-statistic {
@@ -278,11 +263,6 @@ margin: 20px 0;
     justify-content: space-around;
     padding: 40px 0 40px 0;
 }
-
-
-
-
-
 /* MAIN END  */
 
 /* FOOTER START */
@@ -291,7 +271,6 @@ footer {
   min-height: 95px;
   padding: 20px 5% 20px 5%;
   border-top: 1px solid #e2e2e2;
-
 }
 footer > ul {
   display: flex;
