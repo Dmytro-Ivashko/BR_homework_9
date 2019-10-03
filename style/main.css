@@ -159,9 +159,56 @@ nav>ul>li {
   padding-top: 100px;
   line-height: 1.66;
 }
-.main-cuisines-img-block {
+.cuisines-img {
   height: 450px;
-  background-color: gray;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cuisines-img h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15.37px;
+  color: white;
+}
+.cu-img-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 20%;
+  height: 50%;
+}
+#cuisines-img-1 {
+  background-image: url(/img/italian.png);
+}
+#cuisines-img-2 {
+  background-image: url(/img/indian.png);
+}
+#cuisines-img-3 {
+  background-image: url(/img/french.png);
+}
+#cuisines-img-4 {
+  background-image: url(/img/stake.png);
+}
+#cuisines-img-5 {
+  background-image: url(/img/sea.png);
+}
+#cuisines-img-6 {
+  background-image: url(/img/sushi.png);
+}
+#cuisines-img-7 {
+  background-image: url(/img/mexican.png);
+}
+#cuisines-img-8 {
+  background-image: url(/img/chinese.png);
+}
+#cuisines-img-9 {
+  background-image: url(/img/pizza.png);
+}
+#cuisines-img-10 {
+  background-image: url(/img/american.png);
 }
 
 .main-cuisines-statistic {
@@ -173,6 +220,9 @@ nav>ul>li {
     justify-content: space-around;
     padding: 40px 0 40px 0;
 }
+
+
+
 
 
 /* MAIN END  */
